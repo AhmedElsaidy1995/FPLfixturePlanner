@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorGreenBeach"
+
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1"
+    >
+        <TextView
+                android:text="@string/player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/nameLabel" android:layout_weight="1"
+                android:layout_marginLeft="20dp" android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp" android:textColor="@color/colorBlack" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:ems="10"
+                android:id="@+id/editText" android:layout_weight="1" android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                android:textColorLink="@color/colorBlack"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1"
+    >
+        <TextView
+                android:text="@string/team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/teamLabel" android:layout_weight="1"
+                android:layout_marginLeft="20dp" android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp" android:textColor="@color/colorBlack" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="100">
+        <Spinner
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" android:id="@+id/spinner" android:layout_weight="1"
+                android:entries="@array/Teams_array" android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</LinearLayout>

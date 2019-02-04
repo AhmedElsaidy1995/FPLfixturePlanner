@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FPLfixturePlanner</string>
+    <string name="gameweek">Gameweek</string>
+    <string name="playeimgcd">Club Shirt</string>
+    <string name="go">Go</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="player">Player</string>
+    <string name="team">Team</string>
+
+    <string-array name="Teams_array">
+        <item>Select Team</item>
+        <item>Arsenal</item>
+        <item>Bournemouth</item>
+        <item>Brighton</item>
+        <item>Burnley</item>
+        <item>Cardiff</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Fulham</item>
+        <item>Leicester</item>
+        <item>Huddersfield</item>
+        <item>Liverpool</item>
+        <item>Man City</item>
+        <item>Man Utd</item>
+        <item>Newcastle</item>
+        <item>Southampton</item>
+        <item>Spurs</item>
+        <item>Watford</item>
+        <item>West Ham</item>
+        <item>Wolves</item>
+    </string-array>
+
+
+</resources>
