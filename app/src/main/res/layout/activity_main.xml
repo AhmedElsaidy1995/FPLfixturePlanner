@@ -54,7 +54,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/burnley"
             android:id="@+id/player15img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -108,7 +108,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline5"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/manutd"
             android:id="@+id/player14img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -159,7 +159,7 @@
             app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginBottom="2dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/arsenal"
             android:id="@+id/player13img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -178,7 +178,7 @@
             android:layout_marginStart="4dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/westham"
             android:id="@+id/player12img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -231,7 +231,7 @@
             android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/watford"
             android:id="@+id/player11img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -285,7 +285,7 @@
             android:layout_marginStart="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/chelsea"
             android:id="@+id/player10img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -339,7 +339,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline10"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/liverpool"
             android:id="@+id/player9img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -392,7 +392,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline12"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/everton"
             android:id="@+id/player8img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -444,7 +444,7 @@
             app:layout_constraintHorizontal_bias="1.0"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/bournmouth"
             android:id="@+id/player7img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -495,7 +495,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/wolves"
             android:id="@+id/player6img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -546,7 +546,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/fulham"
             android:id="@+id/player5img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -597,7 +597,7 @@
             android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/liverpool"
             android:id="@+id/player4img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -647,7 +647,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline4"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/crystalpalace"
             android:id="@+id/player3img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -698,7 +698,7 @@
             android:layout_marginStart="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/huddersfield"
             android:id="@+id/player2img"
             app:layout_constraintTop_toTopOf="parent"
             android:scaleType="fitCenter"
@@ -749,7 +749,7 @@
             android:layout_marginStart="4dp" app:layout_constraintStart_toStartOf="@+id/guideline"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/default_shirt"
+            android:layout_height="0dp" app:srcCompat="@drawable/westham"
             android:id="@+id/player1img"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginEnd="4dp"
