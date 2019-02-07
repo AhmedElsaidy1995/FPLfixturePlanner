@@ -189,7 +189,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline2"/>
     <TextView
-            android:text="Snodgrass "
+            android:text="Snodgrass"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:id="@+id/player12txt" android:textAlignment="center"
