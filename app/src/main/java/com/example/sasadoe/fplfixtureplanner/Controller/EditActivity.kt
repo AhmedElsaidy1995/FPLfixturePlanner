@@ -1,11 +1,12 @@
-package com.example.sasadoe.fplfixtureplanner
+package com.example.sasadoe.fplfixtureplanner.Controller
 
 import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.*
 import android.widget.Toast
+import com.example.sasadoe.fplfixtureplanner.Model.Player
+import com.example.sasadoe.fplfixtureplanner.R
 import kotlinx.android.synthetic.main.edit_activity.*
 
 class EditActivity : AppCompatActivity() {
@@ -16,13 +17,13 @@ class EditActivity : AppCompatActivity() {
 
         val res = getResources()
         val intent = getIntent()
-        val playerName = intent.getStringExtra("playerName")
-        val playerTeam = intent.getStringExtra("playerTeam")
-        val playerIndex = intent.getIntExtra("playerIndex",0)
-        val labels = res.getStringArray( R.array.Teams_array )
-        val teamIndex  = labels.indexOf(playerTeam)
+
+        val currentPlayer = intent.getParcelableExtra<Player>("currentPlayer")
+
+        val labels = res.getStringArray(R.array.Teams_array)
+        val teamIndex  = labels.indexOf(currentPlayer.team)
         spinner.setSelection(teamIndex)
-        editText.setText(playerName)
+        editText.setText(currentPlayer.name)
 
         confirmbutton.setOnClickListener{
             val newName = "" + editText.text
@@ -32,9 +33,10 @@ class EditActivity : AppCompatActivity() {
             }
             else {
                 val mainActivityIntent = Intent()
-                mainActivityIntent.putExtra("newPlayerIndex", playerIndex)
-                mainActivityIntent.putExtra("newPlayerTeam", newTeam)
-                mainActivityIntent.putExtra("newPlayerName", newName)
+                currentPlayer.name = newName
+                currentPlayer.team = newTeam
+                mainActivityIntent.putExtra("newPlayer", currentPlayer)
+
                 setResult(Activity.RESULT_OK, mainActivityIntent)
                 finish()
             }
