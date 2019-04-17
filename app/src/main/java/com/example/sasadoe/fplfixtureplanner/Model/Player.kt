@@ -3,20 +3,23 @@ package com.example.sasadoe.fplfixtureplanner.Model
 import android.os.Parcel
 import android.os.Parcelable
 
-//class Player(var name: TextView, var team: String,var teamShirt: ImageView, var opponent: TextView ,val index: Int){
-class Player(var name: String, var team: String, var opponent: String ,val index: Int):Parcelable{
+class Player(var id :Int ,var name: String, var team: String, var opponent: String,var position:Int ,var index: Int):Parcelable{
     constructor(parcel: Parcel) : this(
+        parcel.readInt(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
+        parcel.readInt(),
         parcel.readInt()
     ) {
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeInt(id)
         parcel.writeString(name)
         parcel.writeString(team)
         parcel.writeString(opponent)
+        parcel.writeInt(position)
         parcel.writeInt(index)
     }
 

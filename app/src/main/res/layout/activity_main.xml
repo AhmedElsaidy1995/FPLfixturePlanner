@@ -46,15 +46,21 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline15"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="2dp"
             app:layout_constraintVertical_bias="1.0" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginTop="2dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/burnley"
+            android:layout_height="0dp" app:srcCompat="@drawable/bur"
             android:id="@+id/player15img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -62,7 +68,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline12"
             app:layout_constraintVertical_bias="1.0" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" tools:srcCompat="@drawable/whu"/>
     <View
             android:layout_width="0dp"
             android:id="@+id/background14" android:background="@color/colorBlack"
@@ -100,15 +106,21 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline15"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="2dp"
             app:layout_constraintVertical_bias="1.0" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/centerguideline" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline5"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginTop="2dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/manutd"
+            android:layout_height="0dp" app:srcCompat="@drawable/mun"
             android:id="@+id/player14img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -116,7 +128,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline12"
             app:layout_constraintVertical_bias="1.0" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/centerguideline" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline5"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline5" tools:srcCompat="@drawable/wol"/>
     <View
             android:layout_width="0dp"
             android:id="@+id/background13" android:background="@color/colorBlack"
@@ -153,13 +165,20 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline15"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/guideline" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginBottom="2dp"/>
+            app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/arsenal"
+            android:layout_height="0dp" app:srcCompat="@drawable/ars"
             android:id="@+id/player13img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -167,7 +186,7 @@
             app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintBottom_toTopOf="@+id/guideline13" android:layout_marginTop="4dp"
-            app:layout_constraintTop_toTopOf="@+id/guideline12"/>
+            app:layout_constraintTop_toTopOf="@+id/guideline12" tools:srcCompat="@drawable/ars"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -178,7 +197,7 @@
             android:layout_marginStart="4dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/westham"
+            android:layout_height="0dp" app:srcCompat="@drawable/whu"
             android:id="@+id/player12img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -187,7 +206,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline10"
             app:layout_constraintVertical_bias="1.0" android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="4dp"
-            app:layout_constraintStart_toStartOf="@+id/guideline2"/>
+            app:layout_constraintStart_toStartOf="@+id/guideline2" tools:srcCompat="@drawable/mun"/>
     <TextView
             android:text="Snodgrass"
             android:layout_width="0dp"
@@ -216,10 +235,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline11"
             app:layout_constraintBottom_toTopOf="@+id/guideline12" app:layout_constraintVertical_bias="1.0"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/guideline2"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -231,7 +257,7 @@
             android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/watford"
+            android:layout_height="0dp" app:srcCompat="@drawable/wat"
             android:id="@+id/player11img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -240,7 +266,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline10"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" tools:srcCompat="@drawable/mci"/>
     <TextView
             android:text="Pereyra"
             android:layout_width="0dp"
@@ -269,10 +295,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline11"
             app:layout_constraintBottom_toTopOf="@+id/guideline12" app:layout_constraintVertical_bias="0.0"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/guideline5"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -285,7 +318,7 @@
             android:layout_marginStart="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/chelsea"
+            android:layout_height="0dp" app:srcCompat="@drawable/che"
             android:id="@+id/player10img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -295,7 +328,7 @@
             app:layout_constraintVertical_bias="0.0"
             android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginStart="4dp"
-            app:layout_constraintStart_toStartOf="@+id/centerguideline"/>
+            app:layout_constraintStart_toStartOf="@+id/centerguideline" tools:srcCompat="@drawable/liv"/>
     <TextView
             android:text="Hazard"
             android:layout_width="0dp"
@@ -324,10 +357,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline11"
             app:layout_constraintBottom_toTopOf="@+id/guideline12" app:layout_constraintVertical_bias="0.0"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/centerguideline"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline5"/>
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -339,7 +379,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline10"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/liverpool"
+            android:layout_height="0dp" app:srcCompat="@drawable/liv"
             android:id="@+id/player9img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -348,7 +388,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline10"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/centerguideline"/>
+            app:layout_constraintEnd_toStartOf="@+id/centerguideline" tools:srcCompat="@drawable/hud"/>
     <TextView
             android:text="Salah"
             android:layout_width="0dp"
@@ -377,10 +417,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline11"
             app:layout_constraintBottom_toTopOf="@+id/guideline12" app:layout_constraintVertical_bias="0.0"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/guideline"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/centerguideline"/>
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/centerguideline"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -392,7 +439,7 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline12"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/everton"
+            android:layout_height="0dp" app:srcCompat="@drawable/eve"
             android:id="@+id/player8img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
@@ -400,7 +447,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline4" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
-            app:layout_constraintBottom_toTopOf="@+id/guideline10"/>
+            app:layout_constraintBottom_toTopOf="@+id/guideline10" tools:srcCompat="@drawable/lei"/>
     <TextView
             android:text="Richarlison"
             android:layout_width="0dp"
@@ -428,10 +475,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline11"
             app:layout_constraintBottom_toTopOf="@+id/guideline12" app:layout_constraintVertical_bias="0.0"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline"
-            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"/>
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -444,14 +498,14 @@
             app:layout_constraintHorizontal_bias="1.0"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/bournmouth"
+            android:layout_height="0dp" app:srcCompat="@drawable/bou"
             android:id="@+id/player7img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
             android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="@+id/guideline3"
             app:layout_constraintBottom_toTopOf="@+id/guideline8" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline2" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" tools:srcCompat="@drawable/ful"/>
     <TextView
             android:text="Cook"
             android:layout_width="0dp"
@@ -479,11 +533,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline9"
             app:layout_constraintBottom_toBottomOf="@+id/background4"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/guideline2" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -495,14 +555,14 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/wolves"
+            android:layout_height="0dp" app:srcCompat="@drawable/wol"
             android:id="@+id/player6img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
             android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="@+id/guideline3"
             app:layout_constraintBottom_toTopOf="@+id/guideline8" android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginStart="4dp"
-            app:layout_constraintStart_toStartOf="@+id/guideline5"/>
+            app:layout_constraintStart_toStartOf="@+id/guideline5" tools:srcCompat="@drawable/eve"/>
     <TextView
             android:text="Doherty"
             android:layout_width="0dp"
@@ -521,20 +581,27 @@
             android:layout_marginStart="6dp" app:layout_constraintStart_toStartOf="@+id/guideline5"
             android:layout_marginEnd="6dp" app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
     <TextView
-            android:text="WHU (H)"
+            android:text="WHU (H), ARS (A)"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:id="@+id/player6opp" android:textAlignment="center"
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
             app:autoSizeTextType="uniform"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline9"
             app:layout_constraintBottom_toBottomOf="@+id/background4"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -546,14 +613,14 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/fulham"
+            android:layout_height="0dp" app:srcCompat="@drawable/ful"
             android:id="@+id/player5img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
             android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="@+id/guideline3"
             app:layout_constraintBottom_toTopOf="@+id/guideline8" android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginStart="4dp"
-            app:layout_constraintStart_toStartOf="@+id/centerguideline"/>
+            app:layout_constraintStart_toStartOf="@+id/centerguideline" tools:srcCompat="@drawable/bou"/>
     <TextView
             android:text="Chambers"
             android:layout_width="0dp"
@@ -580,12 +647,19 @@
             android:textStyle="bold"
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             android:fontFamily="sans-serif-condensed"
             app:layout_constraintTop_toTopOf="@+id/guideline9"
             app:layout_constraintBottom_toBottomOf="@+id/background4"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/centerguideline" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline5"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline5" android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -597,14 +671,14 @@
             android:layout_marginEnd="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/liverpool"
+            android:layout_height="0dp" app:srcCompat="@drawable/liv"
             android:id="@+id/player4img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
             android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="@+id/guideline3"
             app:layout_constraintBottom_toTopOf="@+id/guideline8" android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginStart="4dp"
-            app:layout_constraintStart_toStartOf="@+id/guideline"/>
+            app:layout_constraintStart_toStartOf="@+id/guideline" tools:srcCompat="@drawable/che"/>
     <TextView
             android:text="van Dijk"
             android:layout_width="0dp"
@@ -630,13 +704,20 @@
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
             app:autoSizeTextType="uniform"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
             app:layout_constraintTop_toTopOf="@+id/guideline9"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/guideline"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/centerguideline"
             app:layout_constraintBottom_toBottomOf="@+id/background4"
-            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.0"/>
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -647,14 +728,14 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline4"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/crystalpalace"
+            android:layout_height="0dp" app:srcCompat="@drawable/cry"
             android:id="@+id/player3img"
             android:scaleType="fitCenter"
             android:contentDescription="@string/playeimgcd"
             android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="@+id/guideline3"
             android:layout_marginEnd="4dp" app:layout_constraintEnd_toStartOf="@+id/guideline"
             android:layout_marginStart="4dp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/guideline8"/>
+            app:layout_constraintBottom_toTopOf="@+id/guideline8" tools:srcCompat="@drawable/car"/>
     <TextView
             android:text="Wan-Bissaka"
             android:layout_width="0dp"
@@ -683,10 +764,17 @@
             app:autoSizeTextType="uniform"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintTop_toTopOf="@+id/guideline9"
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline"
-            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"/>
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -698,7 +786,7 @@
             android:layout_marginStart="4dp"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/huddersfield"
+            android:layout_height="0dp" app:srcCompat="@drawable/hud"
             android:id="@+id/player2img"
             app:layout_constraintTop_toTopOf="parent"
             android:scaleType="fitCenter"
@@ -706,7 +794,8 @@
             android:layout_marginTop="4dp"
             app:layout_constraintVertical_bias="0.0" android:layout_marginStart="4dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2" android:contentDescription="@string/playeimgcd"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" android:contentDescription="@string/playeimgcd"
+            tools:srcCompat="@drawable/cry"/>
     <TextView
             android:text="Lössl"
             android:layout_width="0dp"
@@ -733,12 +822,19 @@
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
             app:autoSizeTextType="uniform"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
             app:layout_constraintTop_toTopOf="@+id/guideline7"
             android:textSize="14sp"
             android:fontFamily="sans-serif-condensed" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="@+id/guideline5" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"/>
+            app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"/>
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -749,14 +845,14 @@
             android:layout_marginStart="4dp" app:layout_constraintStart_toStartOf="@+id/guideline"/>
     <ImageView
             android:layout_width="0dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/westham"
+            android:layout_height="0dp" app:srcCompat="@drawable/whu"
             android:id="@+id/player1img"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/centerguideline" android:layout_marginEnd="4dp"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toTopOf="@+id/player1txt" app:layout_constraintStart_toStartOf="@+id/guideline"
             android:layout_marginStart="4dp" android:layout_marginTop="4dp"
-            android:contentDescription="@string/playeimgcd"/>
+            android:contentDescription="@string/playeimgcd" tools:srcCompat="@drawable/ars"/>
     <TextView
             android:text="Fabianski"
             android:layout_width="0dp"
@@ -783,12 +879,18 @@
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
             app:autoSizeTextType="uniform"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/centerguideline"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"
             app:layout_constraintTop_toTopOf="@+id/guideline7" android:textSize="14sp"
-            android:fontFamily="sans-serif-condensed"/>
+            android:fontFamily="sans-serif-condensed" android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
     <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
                                           android:id="@+id/centerguideline"
                                           android:orientation="vertical"

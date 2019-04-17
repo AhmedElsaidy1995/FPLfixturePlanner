@@ -3,6 +3,7 @@
       xmlns:tools="http://schemas.android.com/tools" tools:context=".Controller.MainActivity">
 
 
+    <item android:id="@+id/choosegw" app:showAsAction="ifRoom" android:title="Change GW" />
     <item
             android:id="@+id/go"  app:showAsAction="ifRoom"   android:title="@string/go"/>
     <item
